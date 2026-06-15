@@ -36,3 +36,10 @@ nav ul  a{
     cursor: pointer;
     font-size: 15px;
 }
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0;
+}
