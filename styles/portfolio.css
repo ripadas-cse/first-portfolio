@@ -88,3 +88,15 @@ main{
     margin-top: 130px;
     text-align: justify;
 }
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item-title{
+    font-weight: 200px;
+}
+.item-description{
+    font-weight: 800px;
+}
