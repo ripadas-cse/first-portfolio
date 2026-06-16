@@ -7,12 +7,17 @@
     font-style:unset;
     font-weight: 800px;
 }
+
+.header{
+    background-image: url("/images/developer.png");
+    background-repeat: no-repeat;
+}
 nav{
     display:flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 250px;
 }
  nav ul {
     display:flex;
@@ -42,8 +47,9 @@ nav ul  a{
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    margin: 0px 20px 0px 50px;
+    margin: 0px 20px 0px 150px;
 }
 .banner-content{
-    max-width: 900px;
+    max-width: 800px;
+    text-align: justify;
 }
