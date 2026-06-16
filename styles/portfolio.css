@@ -9,16 +9,12 @@
 }
 
 .header{
-   background-image: url("../images/developer.png");
+   background-image: url("../images/developer.png"), url("../images/header_bg.png");
    background-repeat: no-repeat;
-    
-    /* 1. Image-tike dan pashe ebong majhkhane center korbe */
-    background-position: left center; 
-    
+   background-position: top left, bottom right;
     /* 2. Image-er original lamba size dhore rakhbe jate kete na jay */
     background-size: contain; 
-    
-    /* 3. Header-er bhetor thikoto height ebong faka jaega dorkar jate text-ti dhorte pare */
+     /* 3. Header-er bhetor thikoto height ebong faka jaega dorkar jate text-ti dhorte pare */
     min-height: 100vh;
     position: relative;
 }
@@ -27,6 +23,7 @@ nav{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    margin: 0 50px;
     
 }
  nav ul {
@@ -36,7 +33,7 @@ nav{
     list-style:none;
     justify-content: center;
     align-items: center;
-    margin: 0px 10px 0px 150px;
+    margin:  50px 50px;
    }
 nav ul  a{
     text-decoration:none;
@@ -63,5 +60,6 @@ nav ul  a{
 .banner-content{
     max-width: 800px;
     text-align: justify;
+    max-width: auto;
     
 }
