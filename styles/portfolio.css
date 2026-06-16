@@ -9,8 +9,18 @@
 }
 
 .header{
-    background-image: url("/images/developer.png");
-    background-repeat: no-repeat;
+   background-image: url("/images/developer.png");
+   background-repeat: no-repeat;
+    
+    /* 1. Image-tike dan pashe ebong majhkhane center korbe */
+    background-position: left center; 
+    
+    /* 2. Image-er original lamba size dhore rakhbe jate kete na jay */
+    background-size: contain; 
+    
+    /* 3. Header-er bhetor thikoto height ebong faka jaega dorkar jate text-ti dhorte pare */
+    min-height: 100vh;
+    position: relative;
 }
 nav{
     display:flex;
