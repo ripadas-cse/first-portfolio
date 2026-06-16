@@ -9,7 +9,7 @@
 }
 
 .header{
-   background-image: url("/images/developer.png");
+   background-image: url("../images/developer.png");
    background-repeat: no-repeat;
     
     /* 1. Image-tike dan pashe ebong majhkhane center korbe */
