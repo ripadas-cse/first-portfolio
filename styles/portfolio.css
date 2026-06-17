@@ -106,12 +106,26 @@ main{
 }
 
 .item-title{
-    font-weight: 200px;
+    font-weight: 550;
+    font-size: 15px;
+    color: black;
 }
 .item-description{
-    font-weight: 800px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.649);
 }
-
+.skill-description{
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px 50px;
+}
+.skill{
+    border-radius:50px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
 
 
 
