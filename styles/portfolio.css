@@ -5,7 +5,7 @@
 .font{
     font-size: 50px;
     font-style:unset;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 .header{
@@ -21,15 +21,16 @@
 }
 nav{
     display:flex;
-    
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 0 10px 0 150px;
+    margin: 0 20px;
     
     
 }
  nav ul {
     display:flex;
+    flex-wrap: wrap;
     gap: 20px;
     font-style:none;
     list-style:none;
@@ -57,23 +58,27 @@ nav ul  a{
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
-    margin: 0px 10px 0px 150px;
+    gap: 30px;
+    margin: 0px 20px;
    
 }
 .banner-content{
-    max-width: 1140px;
+    flex: 1;
+    min-width: 300px;
     text-align: justify;
-    max-width: auto;
+    
     
     
 }
-.profile-pic{
-    max-width: 1140px;
+.profile-pic {
+    max-width: 100%;
+    max-width: 100%; 
+    height: 600px;
+    width: 500px;
 }
 .about-title{
     font-size: 35px;
-    font-weight: 1000px;
+    font-weight: 800;
     color: rgba(0, 0, 0, 0.732);
     text-align: center;
     border-radius: 10px;
@@ -105,4 +110,48 @@ main{
 }
 .item-description{
     font-weight: 800px;
+}
+
+
+
+
+
+/* মোবাইল ও ট্যাবলেটের জন্য রেসপন্সিভ কোড */
+@media (max-width: 768px) {
+    nav {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    nav ul {
+        margin: 20px 0;
+    }
+
+    .banner {
+        flex-direction: column-reverse; /* মোবাইলে ছবি আগে অথবা পরে নেওয়ার জন্য (উল্টে যাবে) */
+        text-align: center;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    /* HTML এর ফিক্সড হাইট-উইডথ ওভাররাইড করার জন্য */
+    .profile-pic {
+        width: 100% !important;
+        max-width: 350px; /* মোবাইলে ছবি যেন অতিরিক্ত বড় না হয় */
+        height: auto !important;
+    }
+
+    .about {
+        padding: 40px 20px; /* মোবাইলে ভেতরের অতিরিক্ত প্যাডিং কমানো হলো */
+        margin-top: 50px;
+    }
+
+    .about-items {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
 }
