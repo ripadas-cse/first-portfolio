@@ -134,9 +134,9 @@ main{
 .skill2{
     padding: 20px;
     text-align:justify;
-    box-shadow: 0 6px 50px 0;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.404);
     
-    
+
 }
 
 
