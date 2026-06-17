@@ -17,6 +17,7 @@
      /* 3. Header-er bhetor thikoto height ebong faka jaega dorkar jate text-ti dhorte pare */
     min-height: 100vh;
     position: relative;
+    
 }
 nav{
     display:flex;
@@ -58,12 +59,17 @@ nav ul  a{
     align-items: center;
     gap: 50px;
     margin: 0px 10px 0px 150px;
+   
 }
 .banner-content{
     max-width: 800px;
     text-align: justify;
     max-width: auto;
     
+    
+}
+.profile-pic{
+    max-width: 800px;
 }
 .about-title{
     font-size: 35px;
