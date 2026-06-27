@@ -216,3 +216,27 @@ main section{
         text-align: center;
     }
 }
+.footer-column{
+    width:50%;
+    padding: 20px;
+    text-align: center;
+}
+.foot{
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"], input[type="Email"], input[type="textarea"],input[type="submit"]{
+    display: block;
+    background-color: aliceblue;
+    height: 30px;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    margin: 30px auto;
+    border: none;
+}
+footer textarea {
+    height: 100px; /* textarea-র জন্য আলাদা height */
+    resize: vertical;
+}
